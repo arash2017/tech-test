@@ -16,3 +16,10 @@ Once you are happy with your solution, please answer the following questions. Th
 1. How did you verify that everything works correctly?
 2. How long did it take you to complete the task?
 3. What else could be done to your solution to make it ready for production?
+=============================================================================
+
+
+
+
+###  Use a Local Server for the index.html
+ http-server . -p 8080
