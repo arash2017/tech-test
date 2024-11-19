@@ -23,3 +23,11 @@ Once you are happy with your solution, please answer the following questions. Th
 
 ###  Use a Local Server for the index.html
  http-server . -p 8080
+
+## Response Question 1 :How did you verify that everything works correctly?
+    
+    1.1 To test the backend logic, including both the JSON file and database repository implementations, we can use xUnit along with Moq for mocking dependencies. 
+
+    1.2 I've tested all cases manually by Postman and UI interface.
+
+    1.3 I've tested all cases manually by  UI interface.
