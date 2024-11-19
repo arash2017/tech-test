@@ -17,9 +17,10 @@ Once you are happy with your solution, please answer the following questions. Th
 2. How long did it take you to complete the task?
 3. What else could be done to your solution to make it ready for production?
 =============================================================================
-
-
-
+## Design Pattern
+- I've Used Design Patterns like Repository and Strategy in this project.
+- Also I've defined a service to call external API
+- Unit test id implemented.
 
 ###  Use a Local Server for the index.html
  http-server . -p 8080
@@ -31,3 +32,30 @@ Once you are happy with your solution, please answer the following questions. Th
     1.2 I've tested all cases manually by Postman and UI interface.
 
     1.3 I've tested all cases manually by  UI interface.
+
+### Response Question 2. How long did it take you to complete the task?
+  2. Three hours
+
+### 3. What else could be done to your solution to make it ready for production?
+3.1- Error Handling
+    Introduce global error handling middleware (e.g., UseExceptionHandler) to catch unhandled exceptions and return appropriate error responses.
+3.2-Monitoring and Alerts 
+   Implement logging (using libraries like Serilog or NLog) for detailed request and error logging.
+3.3- Security
+    Add security layers for input validation to prevent SQL Injection and other attack vectors.
+    Ensure that the API is protected by authentication/authorization (e.g., JWT tokens, OAuth) if required.
+    Protect sensitive data (like database connection strings) using tools like Azure Key Vault 
+3.4- Unit testing
+  Add more unit tests
+3.5 Scalability
+    Ensure the database is optimized for production, such as creating indexes on frequently queried columns (e.g., id).
+3.6- Code Review    
+3.7- Documentation
+    Create API documentation (e.g., using Swagger already is done for Dev).
+    Provide clear comments and explanations for the code, especially for complex sections like the strategies.
+3.8- CI/CD
+    Set up a CI/CD pipeline (e.g., Azure DevOps, GitHub Actions) to
+3.9- Caching
+    Implement caching for image URLs to reduce the load on external services and databases for frequently requested identifiers.
+    Consider using MemoryCache or a distributed cache like Redis to store results for a short duration (e.g., 5-10 minutes).
+### Code
