@@ -20,7 +20,7 @@ Once you are happy with your solution, please answer the following questions. Th
 ## Design Pattern
 - I've Used Design Patterns like Repository and Strategy in this project.
 - Also I've defined a service to call external API
-- Unit test id implemented.
+- Unit test is implemented.
 
 ###  Use a Local Server for the index.html
  http-server . -p 8080
